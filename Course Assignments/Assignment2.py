@@ -23,16 +23,16 @@ def truthTable():
 
 truthTable()
 
-checking = "A+B+C*D*E+B+C+A+B+D+C+E+E"
-mylist = []
-for i in checking:
-    if i != '+' and i != '*':
-        mylist.append(i)
+# checking = "A+B+C*D*E+B+C+A+B+D+C+E+E"
+# mylist = []
+# for i in checking:
+#     if i != '+' and i != '*':
+#         mylist.append(i)
 
-print(mylist) 
-mylist.sort()
-print(mylist)
-mylist = list(set(mylist))
-mylist.sort()
-print(mylist)
-print(len(mylist))      
+# print(mylist) 
+# mylist.sort()
+# print(mylist)
+# mylist = list(set(mylist))
+# mylist.sort()
+# print(mylist)
+# print(len(mylist))      
