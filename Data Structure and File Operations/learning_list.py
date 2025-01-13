@@ -75,3 +75,11 @@ print(mylist3)
 # copying  list to another list
 new_list = mylist3.copy()
 print(new_list)
+
+#tuple
+myTuple = (1,2,2,2,2,3,3,3,4,4,4)
+print(myTuple)
+
+#making a set which make the list only have unique value
+myNewSet = set(myTuple)
+print(myNewSet)
