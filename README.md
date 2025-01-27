@@ -3,6 +3,7 @@
 
 ## Intro to Python
 ---
+
 1. variable
 2. classes, functions
 3. if-else, loops[while, for]
@@ -15,3 +16,5 @@
 1. Lists 
 2. List Operations
 3. List Comprehension
+4. Dictionary 
+5. Dictionary Operations
