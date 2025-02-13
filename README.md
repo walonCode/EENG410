@@ -18,3 +18,8 @@
 3. List Comprehension
 4. Dictionary 
 5. Dictionary Operations
+
+---
+## Learn about main function
+---
+1. uses of main function
