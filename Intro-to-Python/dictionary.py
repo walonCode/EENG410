@@ -36,3 +36,10 @@ print(mydict)
 
 ## updating using the .update()
 updated_dic = mydict.update({"age":34,"address":'K7 Kortright'})
+
+## deleting a value from a dictionary
+
+## .pop() remove and return value
+
+delete_value = mydict.popitem()
+print(delete_value)
