@@ -10,6 +10,8 @@ def colorCoder(arr_of_the_resistor_color):
         "violet":7,
         "gray": 8,
         "white":9,
+        "sliver":"",
+        "gold":""
     }
 
     colorMultiplier = {
@@ -28,16 +30,18 @@ def colorCoder(arr_of_the_resistor_color):
     }
 
     colorTolerance = {
-        "black" : 0,
+        "black" : "",
         "brown": 1,
         "red":2,
-        "orange":3,
-        "yellow":4,
-        "green":5,
-        "blue":6,
-        "violet":7,
-        "gray": 8,
-        "white":9,
+        "orange":  "",
+        "yellow":"",
+        "green":0.5,
+        "blue":0.25,
+        "violet":0.1,
+        "gray": 0.05,
+        "white": "",
+        "gold":5,
+        "sliver":10
     }
     validArr = []
     if len(arr_of_the_resistor_color) != 0:
