@@ -1,6 +1,6 @@
 def binary_to_graycode(binary:str):
     if not all(bit in '01' for bit in binary):
-        return "Invalid Expression"
+        return "Invalid Binary Expression"
 
     gray:str = binary[0]
 
@@ -16,7 +16,7 @@ def binary_to_graycode(binary:str):
 
 def graycode_to_binary(graycode:str):
     if not all(bit in '01' for bit in graycode):
-        return "Invalid Expression"
+        return "Invalid Binary Expression"
 
     binary:str = graycode[0]
 
